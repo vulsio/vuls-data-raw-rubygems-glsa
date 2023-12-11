@@ -1,0 +1,28 @@
+{
+	"identifiers": [
+		"GMS-2014-3"
+	],
+	"identifier": "GMS-2014-3",
+	"package_slug": "gem/carrierwave",
+	"title": "Information Exposure",
+	"description": "This package is vulnerable to Information Exposure. When an exception message occurs, it contains the full path of the project directory.",
+	"date": "2014-04-06",
+	"pubdate": "2014-04-06",
+	"affected_range": "<1.0.0.beta",
+	"fixed_versions": [
+		"1.0.0.beta"
+	],
+	"affected_versions": "All versions before 1.0.0.beta",
+	"not_impacted": "All versions starting from 1.0.0.beta",
+	"credit": "Manuel Pradal",
+	"solution": "Upgrade to version 1.0.0.beta or above.",
+	"urls": [
+		"https://github.com/carrierwaveuploader/carrierwave/commit/96314bb42c32d6b24278474e1c877b53a88bfaf8",
+		"https://github.com/carrierwaveuploader/carrierwave/pull/1361"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "7193f2e4-6708-41c2-9f4f-849fd5cfdf6e"
+}
