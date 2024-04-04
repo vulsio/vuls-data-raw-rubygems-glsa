@@ -3,7 +3,7 @@
 		"GMS-2014-30"
 	],
 	"identifier": "GMS-2014-30",
-	"package_slug": "gem/jruby-sandbox",
+	"package_slug": "gem/jruby_sandbox",
 	"title": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
 	"description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in jruby-sandbox.",
 	"date": "2014-04-01",
